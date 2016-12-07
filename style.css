@@ -1,0 +1,47 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 2em;
+    font-size: 16px;
+}
+
+h1 {
+    color: darkgoldenrod;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 0.4em;
+}
+
+h2 {
+    color: darkgoldenrod;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 0.5em;
+    border-top: 1px gray dotted;
+}
+
+.container {
+    width: 30%;
+    background-color: ghostwhite;
+    float: right;
+    padding: 1.5em;
+    border: 2px darkgray solid;
+}
+
+.lname {
+    font-weight: 900;
+}
+
+.main-photo {
+    width: 50%;
+    display: inline;
+}
+
+.sub-photos {
+    width: 25%;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+.sub-photos img {
+    height: 73px;
+}
